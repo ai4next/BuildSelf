@@ -1,0 +1,121 @@
+{
+  "schema_version": 2,
+  "slug": "minimal-self",
+  "created": "2026-10-15",
+  "updated": "2026-10-15",
+  "version": 1,
+  "self_sha256": "fca263072d82043744c3621b81798e7afb32edc9cde0e9c28a9f31508b28d2d4",
+  "principles_sha256": "5491704220e1736118cb3860d9216681352044156858d4dd9c17aacb86433c22",
+  "interview_rounds": 2,
+  "dimensions": [
+    {
+      "id": "01",
+      "name": "身份",
+      "kind": "core"
+    },
+    {
+      "id": "02",
+      "name": "决策",
+      "kind": "core"
+    },
+    {
+      "id": "03",
+      "name": "表达",
+      "kind": "core"
+    },
+    {
+      "id": "05",
+      "name": "价值",
+      "kind": "core"
+    },
+    {
+      "id": "07",
+      "name": "金钱",
+      "kind": "extended",
+      "file": "07-money.md",
+      "why": "C1 与存疑段都指向钱：他对钱的自述与行为对不上，而且那个「不甘心」反复发作——「价值」维度记录的是排序，装不下一个具体领域里的反复执念",
+      "opened": "2026-10-15"
+    }
+  ],
+  "evidence": [
+    {
+      "id": "E001",
+      "path": "evidence/chat/2026-03-group-chat.md",
+      "type": "chat",
+      "title": "2026-03 项目群聊摘录",
+      "words": 82,
+      "sha256": "4804cb8d99f4b966c86faaf670119086bb2df981e9e2a29776e06b469257daa2",
+      "added": "2026-10-15",
+      "consent_at": "2026-10-15T15:16:34",
+      "dimensions": [
+        "表达"
+      ],
+      "reliability": null
+    },
+    {
+      "id": "E002",
+      "path": "evidence/decisions/2026-08-offer.md",
+      "type": "decisions",
+      "title": "2026-08 offer 决策备忘",
+      "words": 62,
+      "sha256": "c1ac13ebf2d70f256979555126bf2b4e65d7b1d7b1f74a57afb320326490ec29",
+      "added": "2026-10-15",
+      "consent_at": "2026-10-15T15:16:34",
+      "dimensions": [
+        "身份",
+        "决策",
+        "价值",
+        "金钱"
+      ],
+      "reliability": null
+    },
+    {
+      "id": "E003",
+      "path": "evidence/calendar/2026-09-calendar.md",
+      "type": "calendar",
+      "title": "2026-09 日历摘录",
+      "words": 65,
+      "sha256": "0171343f9d79b7863b0ea006b160408779d10d1f87b8497220502b24a8c28b0c",
+      "added": "2026-10-15",
+      "consent_at": "2026-10-15T15:16:34",
+      "dimensions": [
+        "身份",
+        "决策"
+      ],
+      "reliability": null
+    }
+  ],
+  "probes": [
+    {
+      "id": "P01",
+      "situation_file": "probes/P01.md",
+      "sealed_file": "probes/sealed/P01.answer.md",
+      "sealed_sha256": "b38c175acd022fc1c6be6b4a79e88c6a44df042488d272068ea5d3243baf3605",
+      "frozen_at": "2026-10-14T20:10:00",
+      "status": "active"
+    },
+    {
+      "id": "P02",
+      "situation_file": "probes/P02.md",
+      "sealed_file": "probes/sealed/P02.answer.md",
+      "sealed_sha256": "93094894e155b2094488346918dd899db61d04176db5767c2c2e91bdf33229dd",
+      "frozen_at": "2026-10-14T20:14:00",
+      "status": "active"
+    },
+    {
+      "id": "P03",
+      "situation_file": "probes/P03.md",
+      "sealed_file": "probes/sealed/P03.answer.md",
+      "sealed_sha256": "a32b29096a576e85d48ecef65e51aa59f0acdb52d4ce5a344b73e1d5ca3ec580",
+      "frozen_at": "2026-10-14T20:18:00",
+      "status": "active"
+    }
+  ],
+  "changes": [
+    {
+      "version": 1,
+      "date": "2026-10-15",
+      "note": "建档"
+    }
+  ]
+}
